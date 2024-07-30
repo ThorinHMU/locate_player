@@ -1,2 +1,2 @@
-data modify storage update liste append value 0
-execute store result storage update liste int 1 run scoreboard players get @s Id
+data modify storage update_list list append value 0
+execute store result storage update_lidt list int 1 run scoreboard players get @s Id
