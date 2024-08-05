@@ -1,4 +1,6 @@
 execute store result storage test id int 1 run scoreboard players get @s Id
+execute store result storage test id_selc int 1 run scoreboard players get @s id_select
+
 function cmd:set_score_s with storage test
 
 execute unless score @s Id matches -2147483648..2147483647 run scoreboard players add max_id Id 1
